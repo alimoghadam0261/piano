@@ -1,0 +1,70 @@
+body{
+    background: #0f6674;
+}
+.piano{
+    position:relative;
+   margin-left:10%;
+}
+.do{
+    position: absolute;
+    z-index: 1;
+    transition: all 0.5s;
+}
+
+.re{
+left:155px;
+    z-index: -1;
+    position: absolute;
+    transition: all 0.5s;
+}
+.me{
+    left:310px;
+    z-index: -2;
+    position: absolute;
+    transition: all 0.5s;
+}
+.fa{
+    left:465px;
+    z-index: -3;
+    position: absolute;
+    transition: all 0.5s;
+}
+.sol{
+    left:620px;
+    z-index: -4;
+    position: absolute;
+    transition: all 0.5s;
+}
+.la{
+    left:775px;
+    z-index: -5;
+    position: absolute;
+    transition: all 0.5s;
+}
+.ci{
+    left:930px;
+    z-index: -6;
+    position: absolute;
+    transition: all 0.5s;
+}
+.do:hover{
+    opacity:0.5;
+}
+.re:hover{
+    opacity:0.5;
+}
+.me:hover{
+    opacity:0.5;
+}
+.fa:hover{
+    opacity:0.5;
+}
+.sol:hover{
+    opacity:0.5;
+}
+.la:hover{
+    opacity:0.5;
+}
+.ci:hover{
+    opacity:0.5;
+}

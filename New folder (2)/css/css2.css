@@ -1,0 +1,99 @@
+body{
+    margin:0;
+    padding:0;
+    justify-content:center;
+    display: flex;
+    height: 100vh;
+    align-items:center;
+}
+.main{
+    perspective: 140px;
+}
+#piano{
+    height:400px;
+    padding:90px 30px 0 30px;
+    background-image: url('../img/wood.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:10px;
+    transform: rotateX(6deg) rotateY(0deg);
+    transform-style: preserve-3d;
+    filter: drop-shadow(5px 5px 29px #000);
+}
+.keys{
+    position:relative;
+
+}
+.white-keys{
+    display: flex;
+}
+.white-key{
+    width:68px;
+    height:290px;
+    background:#fff;
+    border-radius:0 0 5px 5px;
+    border:1px solid #000;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.white-key:hover{
+    /*border:2px solid #747272;*/
+    box-shadow: none;
+
+}
+.white-key p{
+    position: fixed;
+    bottom:5%;
+color:gray;
+}
+
+.black-keys{
+    position:relative;
+    display: flex;
+
+}
+.black-key:hover{
+    /*border:2px solid #747272;*/
+    box-shadow: none;
+
+}
+.black-key{
+    width:50px;
+    height:160px;
+    box-sizing: border-box;
+    position:absolute;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: all 0.2s;
+    background:#000;
+    border-radius:0 0 5px 5px;
+}
+.black-key:nth-child(1){
+    left:45px
+}
+.black-key:nth-child(2){
+    left:114px
+}
+.black-key:nth-child(3){
+    left:249px
+}
+.black-key:nth-child(4){
+    left:317px
+}
+.black-key:nth-child(5){
+    left:386px
+}
+.black-key:nth-child(6){
+    left:522px
+}
+.black-key:nth-child(7){
+    left:591px
+}
+.black-key:nth-child(8){
+    left:659px
+}
+.black-key:nth-child(9){
+    left:794px
+}
+.black-key:nth-child(10){
+    left:862px
+}
